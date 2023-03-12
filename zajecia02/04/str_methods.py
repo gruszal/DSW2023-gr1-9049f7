@@ -4,7 +4,7 @@ print(tekst.isalpha())  # składa się z liter
 print(tekst.isnumeric())  # składa się z samych cyfr
 print(tekst.islower())  # same małe litery
 
-tekst2 = '     dużo spacji   '
+tekst2 = '     dużo spacji   \n'
 
 tekst_bez_spacji = tekst2.strip()
 
