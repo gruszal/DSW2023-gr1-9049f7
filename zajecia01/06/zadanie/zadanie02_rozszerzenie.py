@@ -9,6 +9,6 @@ if not nowe_imie:
 elif nowe_imie not in imiona:
     imiona.append(nowe_imie)
 else:
-    print('Imię ', nowe_imie, 'jest już na liście, więc nie zostanie dodane')
+    print('Imię', nowe_imie, 'jest już na liście, więc nie zostanie dodane')
 
 print(sorted(imiona))
