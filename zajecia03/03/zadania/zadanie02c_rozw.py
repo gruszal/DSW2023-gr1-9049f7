@@ -8,8 +8,8 @@ while True:
         producent = auta[indeks]
         break
     except ValueError:
-        print(f"Podana wartość {odpowiedz} nie jest liczbą naturalną!")
+        print(f"Podana wartość '{odpowiedz}' nie jest liczbą naturalną!")
     except IndexError:
-        print(f"Nie ma producenta o indeksie {odpowiedz}!")
+        print(f"Nie ma producenta o indeksie '{odpowiedz}'!")
 
-print(f"Wybrany producent to: {producent}")
+print(f"Wybrany producent to: '{producent}'")
