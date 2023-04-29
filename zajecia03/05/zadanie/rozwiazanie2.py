@@ -6,7 +6,7 @@ wartosc = input('Podaj promień koła: ')
 try:
     promien = float(wartosc)
 except ValueError:
-    print(f'Wartość {wartosc} nie jest poprawną liczbą.')
+    print(f'Wartość "{wartosc}" nie jest poprawną liczbą.')
     exit()
 
 try:
