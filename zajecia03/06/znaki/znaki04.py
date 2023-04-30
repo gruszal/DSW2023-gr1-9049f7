@@ -8,4 +8,4 @@ print(type(zakodowany))
 
 print(b'\xc4\x99'.decode())
 
-# litera 'ę' : https://unicode-table.com/pl/0119/
+# litera 'ę' : https://symbl.cc/pl/0119/
