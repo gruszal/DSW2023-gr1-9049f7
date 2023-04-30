@@ -10,7 +10,7 @@ def wczytaj_cene_paliwa(domyslna_cena=7.97):
         return float(cena_za_litr)
 
 
-if __name__ == '__main__':  # zwyczajowa linijka oddzielająca skrypt od definicji
+if __name__ == '__main__':
     cena_za_litr = wczytaj_cene_paliwa()
 
     while True:
