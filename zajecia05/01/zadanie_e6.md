@@ -13,3 +13,8 @@ Następnie w bloku "main" należy dodać menadżerce `m1` podwładnych `p1` oraz
 Napisz metodę `dodaj_podwladnego` w klasie `Menadzer`, która będzie przyjmować jako parametr obiekt klasy `Pracownik` a następnie doda ten obiekt do listy `podwladni` klasy `Menadzer`. 
 
 Zmień linijki dodające podwładnego, aby uzywały metody `dodaj_podwladnego`.
+
+### Spodziewany wynik
+```
+[Pracownik(Eleonora, Marciniak), Pracownik(Henryk, Sikorski)]
+```
