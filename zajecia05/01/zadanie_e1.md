@@ -6,4 +6,6 @@ Powyższa klasa powinna mieć zaimplementowaną metodę `__repr__`, która w zro
 
 ## Spodziewany wynik
 ```
+Pracownik(Eleonora, Marciniak)
+Pracownik(Henryk, Sikorski)
 ```
