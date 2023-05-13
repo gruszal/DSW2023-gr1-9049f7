@@ -23,7 +23,7 @@ class Menadzer(Pracownik):
         super().__init__(imie, nazwisko, pensja)
         self.podwladni: List[Pracownik] = []
 
-    def dodaj_podwladnego(self, podwladny: Pracownik):
+    def dodaj_podwladnego(self, podwladny: Pracownik) -> None:
         self.podwladni.append(podwladny)
 
 

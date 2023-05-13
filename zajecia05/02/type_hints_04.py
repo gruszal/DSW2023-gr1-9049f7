@@ -12,5 +12,8 @@ def prefix_names(prefix: str, items: Union[List[str], Tuple[str, ...]], postfix:
 if __name__ == '__main__':
     my_items = ('XXX', 'YYY')
 
+    prefixed_items = prefix_names('new', my_items)
+    print(prefixed_items)
+
     prefixed_items = prefix_names('new', my_items, '(temp)')
     print(prefixed_items)
