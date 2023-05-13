@@ -14,4 +14,4 @@ if __name__ == '__main__':
     prostokaty = [Prostokat(1, 2), Prostokat(7, 11), Prostokat(32, 54)]
 
     for p in prostokaty:
-        print(str(p))
+        print(p)
