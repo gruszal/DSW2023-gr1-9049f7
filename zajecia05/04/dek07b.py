@@ -1,6 +1,7 @@
 from functools import lru_cache
 from time import sleep
 
+
 @lru_cache
 def dlugie_obliczenia(liczba):
     wynik = liczba
@@ -12,6 +13,7 @@ def dlugie_obliczenia(liczba):
 
     print(f' = {wynik}', flush=True)
     return wynik
+
 
 if __name__ == '__main__':
     print(dlugie_obliczenia(1))

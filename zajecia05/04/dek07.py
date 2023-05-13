@@ -12,6 +12,7 @@ def dlugie_obliczenia(liczba):
     print(f' = {wynik}', flush=True)
     return wynik
 
+
 if __name__ == '__main__':
     print(dlugie_obliczenia(1))
     print(dlugie_obliczenia(2))

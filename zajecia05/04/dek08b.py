@@ -23,6 +23,7 @@ class Pracownik:
 if __name__ == '__main__':
     PLACA_MINIMALNA = 3490
 
-    p1 = Pracownik('Eleonora', 'Marciniak', 3000)
+    # p1 = Pracownik('Eleonora', 'Marciniak', 3000)
+    p1 = Pracownik('Eleonora', 'Marciniak', 4000)
 
     print(f'{p1}, pensja: {p1.pensja}')

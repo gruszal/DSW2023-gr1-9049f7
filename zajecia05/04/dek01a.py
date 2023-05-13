@@ -13,3 +13,5 @@ def calculations():
 
 if __name__ == '__main__':
     calculations()
+    calculations()
+    calculations()
