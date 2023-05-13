@@ -21,4 +21,11 @@ Ponownie wypisz pensje wszystkich pracowników.
 
 ### Spodziewany wynik
 ```
+Pracownik(Eleonora, Marciniak) : 5000 zł
+Pracownik(Henryk, Sikorski) : 3490 zł
+Pracownik(Sylwia, Wiśniewska) : 6000 zł
+
+Pracownik(Eleonora, Marciniak) : 5250.0 zł
+Pracownik(Henryk, Sikorski) : 3664.5 zł
+Pracownik(Sylwia, Wiśniewska) : 6300.0 zł
 ```
